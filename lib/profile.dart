@@ -11,22 +11,22 @@ class ProfilePageCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var appBar = AppBar(
-        title: const Text("Final Exam 640710505"),
-        centerTitle: true,
-        actions: [
-          IconButton(
-            icon: Icon(isDarkMode ? Icons.light_mode : Icons.dark_mode),
-            onPressed: toggleTheme,
-          )
-        ],
-      );
+      title: const Text("Final Exam 640710505"),
+      centerTitle: true,
+      actions: [
+        IconButton(
+          icon: Icon(isDarkMode ? Icons.light_mode : Icons.dark_mode),
+          onPressed: toggleTheme,
+        )
+      ],
+    );
     return Scaffold(
       appBar: appBar,
       body: const Center(
         child: Profilecard(
           name: 'Chonlachat Buangam',
           interesting: 'Interesting :Computer vision Imageprocessing ',
-          position: 'OCR Engineering',
+          position: 'OCR Engineering , Machine learning',
           email: 'Buangam_c2@silpakorn.edu',
           phoneNumber: '0968819519',
           imageurl:
